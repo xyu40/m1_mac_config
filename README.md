@@ -20,7 +20,7 @@ My 2 cents for setting up M1 Mac developing env natively.
 ##### Miniforge
 - Install mini forge from https://github.com/conda-forge/miniforge (architecture arm64)
 ##### Jupyter
-- Issue here: https://github.com/jupyter/notebook/issues/5882
+- Follow the issue here: https://github.com/jupyter/notebook/issues/5882
 - As of now, “conda install jupyter” would result in unexplained conflict, use “conda install jupyterlab” instead
 - Modify _use_appnope function of “miniforge3/envs/YOURENV/lib/python3.X/site-packages/ipykernel/eventloops.py”
 ```
@@ -42,7 +42,7 @@ def _use_appnope():
 ### Vim
 - Install vim-plug as usual
 - Create .vimrc as you like it
-- Install node via nvm (node version manager) if you would like to use neoclide/coc.nvim plug (coc-neovim)
+- Install node via nvm (node version manager) if you would like to use neoclide/coc.nvim plug (coc-nvim)
 - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 - nvm install v15
 - If using coc-neovim, open up a .py file and install coc python “CocInstall coc-python”

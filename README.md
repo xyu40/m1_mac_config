@@ -6,6 +6,11 @@ My 2 cents for setting up M1 Mac developing env natively.
 - Configure the plugins (zsh-autosuggestions zsh-syntax-highlighting, etc.)
 
 
+### Xcode
+- Install Xcode. For the first time only, open xcode from Applications, agree to the terms
+- Install command line tools using "xcode-select --install"
+
+
 ### Homebrew
 - As of now, homebrew can be installed natively, though some formulas might not work
 - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

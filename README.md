@@ -54,6 +54,7 @@ def _use_appnope():
 
 ### IDEs
 - IntelliJ for Apple Silicon is available.
+- Clion for apple Silicon is available as well, with some bugs to be ironed out
 
 
 ### OpenMP

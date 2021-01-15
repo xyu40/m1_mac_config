@@ -1,5 +1,5 @@
 # m1_mac_config
-My 2 cents for setting up M1 Mac developing env natively.
+My 2 cents for setting up M1 Mac development env natively.
 
 ### Shell
 - Default terminal comes with zsh, just need to install oh-my-zsh as usual.

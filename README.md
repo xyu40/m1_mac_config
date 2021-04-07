@@ -1,15 +1,13 @@
 # m1_mac_config
 My 2 cents for setting up M1 Mac development env natively.
 
-### Shell
-- Default terminal comes with zsh, just need to install oh-my-zsh as usual.
-- Configure the plugins (zsh-autosuggestions zsh-syntax-highlighting, etc.)
-
-
 ### Xcode
 - Install Xcode. For the first time only, open xcode from Applications, agree to the terms.
 - Install command line tools using "xcode-select --install".
 
+### Shell
+- Default terminal comes with zsh, just need to install oh-my-zsh as usual.
+- Configure the plugins (zsh-autosuggestions zsh-syntax-highlighting, etc.)
 
 ### Homebrew
 - As of now, homebrew can be installed natively, though some formulas might not work.
@@ -36,7 +34,7 @@ def _use_appnope():
 - As of now, “pip install --user --upgrade git+http://github.com/pyglet/pyglet@pyglet-1.5-maintenance”
 ##### PyTorch
 - Follow the issue here: https://github.com/pytorch/pytorch/issues/48145
-- In the above link, people have built wheel for python 3.8 and 3.9 which you can use (CPU only, OpenMP disabled).
+- As of now, miniforge can already install pytorch directly
 
 
 ### Vim

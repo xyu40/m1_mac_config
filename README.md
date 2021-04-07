@@ -47,7 +47,7 @@ def _use_appnope():
 
 
 ### VS code
-- Download insider version https://code.visualstudio.com
+- Now there is a universal build
 
 
 ### IDEs

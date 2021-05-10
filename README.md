@@ -47,7 +47,10 @@ def _use_appnope():
 
 
 ### VS code
-- Now there is a universal build
+- Now there is a universal build.
+- For "Cannot update while running on a read-only volume" error, move VS code to application folder, and run the following
+- sudo chown -R $USER ~/Library/Caches/com.microsoft.VSCode.ShipIt
+- xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 
 ### IDEs
